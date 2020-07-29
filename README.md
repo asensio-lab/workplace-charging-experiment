@@ -1,6 +1,6 @@
 # Introduction
 
-This folder contains the code used in the Workplace Norms and Electric Vehicle Charging paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
+This folder contains the code used in the A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
 
 # Code Instructions & Information
 
