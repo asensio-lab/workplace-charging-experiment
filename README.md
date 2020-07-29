@@ -4,7 +4,7 @@ This folder contains the code used in the Workplace Norms and Electric Vehicle C
 
 # Code Instructions and Information
 
-All figures and tables are generated from the single R file saved in this folder. Running the full file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
+All figures and tables are generated from the single R file saved in this folder, "package.R". Running the full file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
 
 ## Dependencies
 
