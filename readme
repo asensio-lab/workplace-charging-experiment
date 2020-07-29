@@ -1,10 +1,10 @@
 # Introduction
 
-This folder contains the code used in the Workplace Norms and Electric Vehicle Charging paper. Data is proprietary and may be made available upon request.
+This folder contains the code used in the Workplace Norms and Electric Vehicle Charging paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
 
-# Instructions
+# Code Instructions and Information
 
-All figures and tables are generated from the single R file saved in this folder. Running this file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
+All figures and tables are generated from the single R file saved in this folder. Running the full file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
 
 ## Dependencies
 
