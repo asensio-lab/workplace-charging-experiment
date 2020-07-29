@@ -1,10 +1,12 @@
 # Introduction
 
-This folder contains the code used in the A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
+This folder contains the replication code used in the "A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette" paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
+
+The directory contains two comma separated value data files: "**station_data.csv**" and "**external_sample.csv**" and the necessary R code, "**package.R**".
 
 # Code Instructions & Information
 
-All figures and tables are generated from the single R file saved in this folder, "package.R". Running the full file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
+All figures and tables are generated from the single R file saved in this folder, "**package.R**". Running the full file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
 
 ## Dependencies
 
@@ -36,8 +38,6 @@ Figures may be generated non-sequentially in some cases and are organized by the
 # Data Description & Dictionary
 
 All data contained within this directory is anonymous. If there is a need for additional clarity or information, contact corresponding author Omar I. Asensio. 
-
-The directory contains two comma separated value files: "station_data.csv" and "external_sample.csv".
 
 ## Main Data ("station_data.csv")
 
