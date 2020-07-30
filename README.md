@@ -2,7 +2,9 @@
 
 This repository contains the replication code used in the "A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette" paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
 
-The directory contains two comma separated value data files: "**station_data.csv**" and "**external_sample.csv**" and the necessary R code, "**package.R**".
+The repository contains the R code necessary to replicate all figures and tables from the paper. The anonymized data for replication is available at the following address:
+
+https://doi.org/10.7910/DVN/NFPQLW
 
 # Code Instructions & Information
 
@@ -20,6 +22,7 @@ The following R packages are used in this analysis:
 7. "dummies"
 8. "lpdensity"
 9. "extrafont" (optional for replication)
+10. "gridExtra"
 
 ## Navigation
 
@@ -37,11 +40,11 @@ Figures may be generated non-sequentially in some cases and are organized by the
 
 # Data Description & Dictionary
 
-All data contained within this directory is anonymous. If there is a need for additional clarity or information, contact corresponding author Omar I. Asensio. 
+This dataset contains information from 3,395 high resolution electric vehicle charging sessions. The data contains sessions from 85 EV drivers with repeat usage at 105 stations across 25 sites at a workplace charging program. The workplace locations include facilities such as research and innovation centers, manufacturing, testing facilities and office headquarters for a firm participating in the U.S. Department of Energy (DOE) workplace charging challenge. The data is in a human and machine readable .CSV format. The resolution of the data is to the nearest second, which is the same resolution as used in the analysis of the paper. It is directly importable into free software. All data is fully anonymized. 
 
 ## Main Data ("station_data.csv")
 
-This file contains all data that provides the basis for our analysis, all from the firm within in our study. It is used in generating all figures and tables with the exception of Figure 1, which is not data dependent, and Figure S4b, which comes from an external sample of chargers. The data for generating Figure S4b may be made available upon request. 
+This file contains all data that provides the basis for our analysis, all from the firm within in our study. It is used in generating all figures and tables with the exception of Figure 1, which is not data dependent, and Figure S4b, which comes from an external sample of chargers. The data for generating Figure S4b may be made available upon request by contacting Omar Asensio, whose information can be found at this address: https://datasciencepolicy.gatech.edu/. 
 
 ### Data Dictionary
 
@@ -63,5 +66,3 @@ This file contains all data that provides the basis for our analysis, all from t
 16. *facilityType*: a categorical variable indicating the type of facility a station is installed at; manufacturing = 1, office = 2, research and development = 3, other = 4
 17. *Mon, Tues, Wed, Thurs, Fri, Sat, Sun*: binary variables for day of week of a given session; 1 if the session occurred on that day of week, 0 otherwise
 18. *reportedZip*: binary variable for if a user reported his or her zip code; 1 if zip code was reported, 0 otherwise
-
-
