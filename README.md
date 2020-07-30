@@ -50,8 +50,8 @@ This file contains all data that provides the basis for our analysis, all from t
 3. *dollars*: the amount paid by the user for a given charging session, measured in U.S. dollars
 4. *created*: the date and time a given session was initiated, expressed in the form "YYYY-MM-DD HOUR:MIN:SEC"
 5. *ended*: the date and time a given session was terminated
-6. *timeStart*: the hour, from 1 to 24, during which the session was initiated (expressed in HOUR.MINUTE form)
-7. *timeEnd*: the hour, from 1 to 24, during which the session was terminated (expressed in HOUR.MINUTE form)
+6. *startTime*: the hour of day, from 1 to 24, during which the session was initiated
+7. *startTime*: the hour of day, from 1 to 24, during which the session was terminated
 8. *chargeTime*: the total duration of the session in hours
 9. *weekday*: the day of the week on which the charging session took place
 10. *platform*: the digital platform used by the EV driver to log the session
@@ -70,8 +70,8 @@ This file contains the start and end times of sessions logged at a different fir
 
 ### Data Dictionary
 
-1. *startTime*: the hour, from 1 to 24, during which the session was initiated (expressed in HOUR.MINUTE form)
-2. *endTime*: the hour, from 1 to 24, during which the session was terminated (expressed in HOUR.MINUTE form)
+1. *startTime*: the hour of day, from 1 to 24, during which the session was initiated
+2. *endTime*: the hour of day, from 1 to 24, during which the session was terminated
 
 
 
