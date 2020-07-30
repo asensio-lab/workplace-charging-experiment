@@ -1,6 +1,6 @@
-# Introduction
+# A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette
 
-This folder contains the replication code used in the "A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette" paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
+This repository contains the replication code used in the "A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette" paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
 
 The directory contains two comma separated value data files: "**station_data.csv**" and "**external_sample.csv**" and the necessary R code, "**package.R**".
 
@@ -11,9 +11,9 @@ All figures and tables are generated from the single R file saved in this folder
 ## Dependencies
 
 The following R packages are used in this analysis:
-1. "rddensity"
-2. "ggplot2"
-3. "rdd"
+1. "rdd"
+2. "rddensity"
+3. "ggplot2"
 4. "car"
 5. "dplyr"
 6. "lubridate"
@@ -41,7 +41,7 @@ All data contained within this directory is anonymous. If there is a need for ad
 
 ## Main Data ("station_data.csv")
 
-This file contains all data that provides the basis for our analysis, all from the firm within in our study. It is used in generating all figures and tables with the exception of Figure 1, which is not data dependent, and Figure S4b, which comes from the external sample of chargers contained in the file "external_sample.csv".
+This file contains all data that provides the basis for our analysis, all from the firm within in our study. It is used in generating all figures and tables with the exception of Figure 1, which is not data dependent, and Figure S4b, which comes from an external sample of chargers. The data for generating Figure S4b may be made available upon request. 
 
 ### Data Dictionary
 
@@ -63,16 +63,5 @@ This file contains all data that provides the basis for our analysis, all from t
 16. *facilityType*: a categorical variable indicating the type of facility a station is installed at; manufacturing = 1, office = 2, research and development = 3, other = 4
 17. *Mon, Tues, Wed, Thurs, Fri, Sat, Sun*: binary variables for day of week of a given session; 1 if the session occurred on that day of week, 0 otherwise
 18. *reportedZip*: binary variable for if a user reported his or her zip code; 1 if zip code was reported, 0 otherwise
-
-## Exernal Sample Data ("external_sample.csv")
-
-This file contains the start and end times of sessions logged at a different firm than the one considered in our study, used for generating the histogram of plugouts in Figure S4.
-
-### Data Dictionary
-
-1. *startTime*: the hour of day, from 1 to 24, during which the session was initiated
-2. *endTime*: the hour of day, from 1 to 24, during which the session was terminated
-
-
 
 
