@@ -1,8 +1,8 @@
 # A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette
 
-This repository contains the replication code used in the "A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette" paper as well as the anonymized version of the data upon which the paper is built. It is designed for easy replication of all figures and tables.
+This repository contains the replication code used in the "A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette" paper. It is designed for easy replication of all figures and tables.
 
-The repository contains the R code necessary to replicate all figures and tables from the paper. The anonymized data for replication is available at the following address:
+The repository contains the R code necessary to replicate all figures and tables from the paper in the file "**package.R**". The anonymized data for replication is available at the following address:
 
 https://doi.org/10.7910/DVN/NFPQLW
 
@@ -40,13 +40,13 @@ Figures may be generated non-sequentially in some cases and are organized by the
 
 # Data Description & Dictionary
 
+The data provided forms the basis for our analysis, all from the firm within in our study. It is used in generating all figures and tables with the exception of Figure 1, which is not data dependent, and Figure S4b, which comes from an external sample of chargers. The data for generating Figure S4b may be made available upon request by contacting Dr. Omar Asensio, whose information can be found at this address: https://datasciencepolicy.gatech.edu/. 
+
+## Main Data
+
 This dataset contains information from 3,395 high resolution electric vehicle charging sessions. The data contains sessions from 85 EV drivers with repeat usage at 105 stations across 25 sites at a workplace charging program. The workplace locations include facilities such as research and innovation centers, manufacturing, testing facilities and office headquarters for a firm participating in the U.S. Department of Energy (DOE) workplace charging challenge. The data is in a human and machine readable .CSV format. The resolution of the data is to the nearest second, which is the same resolution as used in the analysis of the paper. It is directly importable into free software. All data is fully anonymized. 
 
-## Main Data ("station_data.csv")
-
-This file contains all data that provides the basis for our analysis, all from the firm within in our study. It is used in generating all figures and tables with the exception of Figure 1, which is not data dependent, and Figure S4b, which comes from an external sample of chargers. The data for generating Figure S4b may be made available upon request by contacting Omar Asensio, whose information can be found at this address: https://datasciencepolicy.gatech.edu/. 
-
-### Data Dictionary
+## Data Dictionary
 
 1. *sessionId*: a random number used to identify a specific electric vehcile (EV) charging session
 2. *kwhTotal*: the total energy use of a given EV charging session, measured in kWh
