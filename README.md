@@ -45,7 +45,7 @@ This file contains all data that provides the basis for our analysis, all from t
 
 ### Data Dictionary
 
-1. *sessionId*: a random 7-digit number used to identify a specific electric vehcile (EV) charging session
+1. *sessionId*: a random number used to identify a specific electric vehcile (EV) charging session
 2. *kwhTotal*: the total energy use of a given EV charging session, measured in kWh
 3. *dollars*: the amount paid by the user for a given charging session, measured in U.S. dollars
 4. *created*: the date and time a given session was initiated, expressed in the form "YYYY-MM-DD HOUR:MIN:SEC"
@@ -56,9 +56,9 @@ This file contains all data that provides the basis for our analysis, all from t
 9. *weekday*: the day of the week on which the charging session took place
 10. *platform*: the digital platform used by the EV driver to log the session
 11. *distance*: the distance from a user's home to the charging location, expressed in miles except where user did not report address
-12. *userId*: a random 6-digit number used to identify sessions logged by a specific user
-13. *stationId*: a random 6-digit number used to identify sessions logged at a specific charging station
-14. *locationId*: a random 6-digit number corresponding to a specific location owned by the firm, where chargers were installed
+12. *userId*: a random number used to uniquely identify a given user and his or her transactions
+13. *stationId*: a random number unique to each specific charging station
+14. *locationId*: a random number unique to a specific location owned by the firm, where chargers were installed
 15. *managerVehicle*: a binary variable; 1 if the vehicle logging the transcation is of the type largely used by firm managers, 0 otherwise
 16. *facilityType*: a categorical variable indicating the type of facility a station is installed at; manufacturing = 1, office = 2, research and development = 3, other = 4
 17. *Mon, Tues, Wed, Thurs, Fri, Sat, Sun*: binary variables for day of week of a given session; 1 if the session occurred on that day of week, 0 otherwise
