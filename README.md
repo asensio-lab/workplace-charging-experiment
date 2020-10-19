@@ -2,13 +2,13 @@
 
 This repository contains the replication code used in the "A Field Experiment on Workplace Norms and Electric Vehicle Charging Etiquette" paper. It is designed for easy replication of all figures and tables.
 
-The repository contains the R code necessary to replicate all figures and tables from the paper in the file "**package.R**". The anonymized data for replication is available at the following address:
+The repository contains the R code necessary to replicate all figures and tables from the paper in the file "**package_v2.R**". The anonymized data for replication is available at the following address:
 
 https://doi.org/10.7910/DVN/NFPQLW
 
 # Code Instructions & Information
 
-All figures and tables are generated from the single R file saved in this folder, "**package.R**". Running the full file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
+All figures and tables are generated from the single R file saved in this folder, "**package_v2.R**". Running the full file sequentially will automatically generate and save all figures and tables that are derived from data (including all but Figure 1, which is text-based).
 
 ## Dependencies
 
